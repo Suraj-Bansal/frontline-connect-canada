@@ -95,8 +95,7 @@ nav {
 }
 
 .nav_links li a:hover {
-   opacity: 0.75;
-   font-size: 15px;
+   opacity: 0.7;
 }
 
 #navbar {
@@ -281,8 +280,9 @@ button:hover {
 
 .divider img {
    position: relative;
-   width: 300px;
-   height: 250px;
+   padding-left: 20px;
+   width: 325px;
+   height: 275px;
 }
 
 .panel p {
@@ -293,7 +293,7 @@ button:hover {
 	position: relative;
 	margin-top: 20px;
    height: 1px;
-   padding-bottom: 30px;
+   padding-top: 30px;
 }
 
 .div-transparent:before {
@@ -354,9 +354,9 @@ button:hover {
    text-align: left;
    font-size: 12px;
    font-weight: 500;
-   height: 150px;
+   height: 100px;
    border: none;
-   border-radius: 40px;
+   border-radius: 50px;
    outline: none;
    transition: 0.4s;
    vertical-align: text-top;
@@ -371,4 +371,26 @@ button:hover {
    display: grid;
    grid-template-columns: 1fr 1fr;
    grid-gap: 0rem 1rem;
+}
+
+.form input[type=submit] {
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   padding: 10px;
+   text-align: center;
+   transition: 0.4s;
+}
+
+.contact-divide {
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   grid-gap: 2rem;
+   padding-top: 30px;
+}
+
+.contact-divide img {
+   position: relative;
+   padding-right: 20px;
+   width: 350px;
+   height: 300px;
 }
