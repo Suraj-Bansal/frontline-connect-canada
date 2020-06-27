@@ -409,6 +409,11 @@ button:hover {
    height: 300px;
 }
 
+#team .req-header img {
+   height: 200px;
+   width: 400px;
+}
+
 .team-grid {
    display: grid;
    justify-content: center;
@@ -464,4 +469,30 @@ button:hover {
    text-decoration: underline;
    font-weight: 500;
    margin-bottom: 3px;
+}
+
+.req-header {
+   display: grid;
+   justify-content: center;
+   vertical-align: auto;
+   align-items: center;
+   grid-template-columns: 1fr 1fr ;
+   grid-column-gap: 30px;
+   height: 95vh;
+   width: 100%;
+   padding: 0 2rem;
+}
+
+.req-header h2 {
+   font-size: 3.25rem;
+   text-align: left;
+}
+
+.req-header img {
+   width: 400px;
+   margin-left: 75px;
+}
+
+.req-header p {
+   line-height: 1.8;
 }
