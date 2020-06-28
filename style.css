@@ -295,7 +295,7 @@ button:hover {
 .divider img {
    position: relative;
    padding-left: 20px;
-   width: 325px;
+   width: 300px;
    height: 275px;
 }
 
@@ -497,7 +497,29 @@ button:hover {
    line-height: 1.8;
 }
 
+.response p {
+   margin-left: 50px;
+   margin-right: 50px;
+   line-height: 1.5;
+   font-size: 14px;
+}
+
+.response ul {
+   margin-left: 75px;
+   font-size: 14px;
+   padding-bottom: 30px;
+}
+
+.response li {
+   margin: 5px 0px;
+}
+
+
 .impact img {
    width: 500px;
    height: 500px;
+}
+
+.response ul .bold {
+   font-weight: 700;
 }
