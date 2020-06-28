@@ -410,8 +410,8 @@ button:hover {
 }
 
 #team .req-header img {
-   height: 200px;
-   width: 400px;
+   height: 250px;
+   width: 450px;
 }
 
 .team-grid {
@@ -495,4 +495,9 @@ button:hover {
 
 .req-header p {
    line-height: 1.8;
+}
+
+.impact img {
+   width: 500px;
+   height: 500px;
 }
