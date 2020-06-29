@@ -516,7 +516,7 @@ button:hover {
 
 .impact img {
    width: 500px;
-   height: 500px;
+   height: 400px;
 }
 
 .bold {
@@ -536,16 +536,68 @@ button:hover {
    font-size: 25px;
 }
 
-.steps {
+.donate-text {
    font-size: 14px;
-   padding-bottom: 30px;
+   padding-bottom: 20px;
    line-height: 1.3;
 }
 
-.steps li {
+ol {
+   margin-top: 15px;
+}
+
+.donate-text li {
    margin: 5px 0px;
 }
 
 .donate-form {
    text-align: center;
+   padding: 20px 0;
+}
+
+.donate-text2 {
+   font-size: 14px;
+   line-height: 1.3;
+}
+
+hr {
+   margin-top: 10px;
+   width: 80%;
+}
+
+.donate-link {
+   text-decoration: underline;
+   font-weight: 600;
+   font-size: 15px;
+   color: crimson;
+}
+
+.donate-link:hover {
+   font-weight: 500;
+   opacity: 0.8;
+   transition-delay: 0.1s;
+}
+
+.donate-text3 {
+   font-weight: 600;
+   font-size: 15px;
+   color: crimson;
+}
+
+.OS {
+   display: flex;
+}
+
+.last {
+   padding-left: 3rem;
+}
+
+.accept {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 3rem;
+}
+
+.bottom {
+   padding-bottom: 50px;
 }
