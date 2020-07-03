@@ -63,7 +63,7 @@ p {
 }
 
 .btn:hover {
-   opacity: 0.8;
+   background-color: firebrick;
 }
 
 .l-heading {
@@ -410,7 +410,7 @@ button:hover {
 }
 
 #team .req-header img {
-   height: 250px;
+   height: 225px;
    width: 450px;
 }
 
