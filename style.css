@@ -184,7 +184,7 @@ button:hover {
 }
 
 .social a:hover {
-    opacity: 0.9;
+    color: crimson;
 }
 
 .footer-email:hover {
@@ -628,4 +628,22 @@ hr {
 
 .twitter-feed {
    padding-bottom: 30px;
+}
+
+.donate-reminder {
+   text-align: center;
+   padding: 30px 0px;
+   font-size: 20px
+}
+
+.donate-reminder a {
+   text-decoration: underline;
+   font-weight: 600;
+   color: crimson;  
+   cursor: pointer; 
+}
+
+.donate-reminder a:hover {
+   opacity: 0.8;
+   transition-delay: 0.1s;
 }
