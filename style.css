@@ -125,7 +125,8 @@ button {
 }
 
 button:hover {
-   opacity: 0.8;
+   background-color: firebrick;
+   transition: 0.1s;
 }
 
 .donate-button {
@@ -217,6 +218,12 @@ button:hover {
 
 .illustration {
    margin: 30px;
+}
+
+.illustration h5 {
+   font-size: 14px;
+   margin-top: 10px;
+   font-weight: 500;
 }
 
 .statistics {
@@ -440,9 +447,19 @@ button:hover {
 
 .team-member h3 {
    font-size: 1.25rem;
-   text-decoration: underline;
    font-weight: 500;
    margin-bottom: 5px;
+}
+
+.team-member a {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.team-member a:hover {
+   color: crimson;
+   font-weight: 600;
+   transition: 0.1s;
 }
 
 .contributor-grid {
@@ -470,6 +487,18 @@ button:hover {
    font-weight: 500;
    margin-bottom: 3px;
 }
+
+.contributor-member a {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.contributor-member a:hover {
+   color: crimson;
+   font-weight: 600;
+   transition: 0.1s;
+}
+
 
 .req-header {
    display: grid;
