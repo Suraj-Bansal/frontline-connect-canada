@@ -515,7 +515,7 @@ button:hover {
 }
 
 .impact img {
-   width: 500px;
+   width: 400px;
    height: 400px;
 }
 
@@ -600,4 +600,32 @@ hr {
 
 .bottom {
    padding-bottom: 50px;
+}
+
+.impact-divide {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr ;
+   grid-column-gap: 3rem;
+   width: 100%;
+   padding: 0 2rem;
+}
+
+.impact-divide ul {
+   margin-left: 15px;
+   font-size: 14px;
+   padding-bottom: 15px;
+   padding-top: 10px;
+}
+
+.impact-divide li {
+   margin: 5px 0px;
+}
+
+.impact-divide h3 {
+   font-size: 20px;
+}
+
+.twitter-feed {
+   padding-bottom: 30px;
 }
