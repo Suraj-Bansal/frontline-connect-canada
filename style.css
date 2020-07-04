@@ -204,7 +204,8 @@ button:hover {
 }
 
 .personal-website:hover {
-   opacity: 0.9;
+   color: crimson;
+   font-weight: 600;
 }
 
 .about-frontline {
@@ -634,7 +635,7 @@ hr {
 .impact-divide {
    display: grid;
    justify-content: center;
-   grid-template-columns: 1fr 1fr ;
+   grid-template-columns: 3fr 2fr ;
    grid-column-gap: 3rem;
    width: 100%;
    padding: 0 2rem;
@@ -661,7 +662,8 @@ hr {
 
 .donate-reminder {
    text-align: center;
-   padding: 30px 0px;
+   padding-top: 30px;
+   padding-bottom: 50px;
    font-size: 20px
 }
 
@@ -675,4 +677,72 @@ hr {
 .donate-reminder a:hover {
    opacity: 0.8;
    transition-delay: 0.1s;
+}
+
+#sponsors {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.carousel {
+   height: 200px;
+   position: relative;
+   background-color:white;
+   width: 1000px;
+   display: inline-block;
+   margin-bottom: 75px;
+   max-width: auto;
+   overflow: hidden;
+   box-shadow: 10px 10px 15px rgba(0,0,0,0.50);
+}
+
+.carousel ul {
+   height: 200px;
+   left: 0;
+   position: absolute;
+   width: 9000px;
+   list-style: none;
+   transition: left .3s linear;
+   -moz-transition: left .3s linear;
+   -o-transition: left .3s linear;
+   -webkit-transition: left .3s linear;
+}
+
+.carousel li {
+   display: inline-block;
+   height: 200x;
+   float: left;
+   position: relative;
+   width: 1000px;
+}
+
+.carousel-container {
+   margin: 0 auto;
+   padding: 0;
+   width: 1000px;
+}
+
+.carousel-container img {
+   width: 100%;
+   padding: 0 10px;
+}
+
+.carousel ul {
+   animation: slide-animation 15s infinite;
+}
+
+.carousel ul:hover {
+   animation-play-state: paused;
+}
+
+@keyframes slide-animation {
+   20%{left: 0}
+   25%{left: -1000px}
+   45%{left: -1000px}
+   50%{left: -2000px}
+   70%{left: -2000px}
+   75%{left: -3000px}
+   98%{left: -3000px}
+   100%{left: 0px}
 }
