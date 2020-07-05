@@ -12,3 +12,9 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+var overlay = document.getElementById("overlay");
+
+window.addEventListener('load', function(){
+  overlay.style.display = 'none';
+})
