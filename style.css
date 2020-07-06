@@ -793,3 +793,7 @@ hr {
 .fade {
    opacity: 0;
 }
+
+.footer-fade {
+   opacity: 0;
+}
