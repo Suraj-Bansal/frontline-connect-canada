@@ -8,6 +8,7 @@
    <link rel="stylesheet" media = "screen and (max-width: 768px)" href="css/mobile.css">
    <link rel="stylesheet" media = "screen and (min-width: 1100px)" href="css/widescreen.css">
    <link rel="icon" href="./assets/favicon.png">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    
    <title>Frontline Connect</title>
 </head>
@@ -36,14 +37,14 @@
   </header>
   <section id = "about">
     <div class="container">
-      <div>
+      <div class = "fade">
         <h2 class = "text-align">About Frontline Connect</h2>
         <div>
           <div class="divide div-transparent"></div>
         </div>        
         <h4 class = "text-align">‘No visitor’ policies have been implemented for COVID-19 infection control, thereby isolating patients from their care providers and families. We are equipping healthcare providers and patients with phones and tablets to:</h4>
       </div>
-    <div class="about-frontline">
+    <div class="about-frontline fade">
       <div class = "illustration">
         <img src="./assets/about1.png" width = "225" height="225">
         <h5>Help patients and healthcare workers alike stay connected</h5>
@@ -59,14 +60,14 @@
     </div>
     </div>
   </section>
-  <section class="statistics" id = "banner">
+  <section class="statistics fade" id = "banner">
     <div class="stats">
       <h2>450000</h2>
       <h2>450000</h2>
       <h2>450000</h2> 
     </div> 
   </section>
-  <section id="sponsors">
+  <section id="sponsors" class = "fade">
     <div class="container">
       <h2 class = "text-align">Thank You Sponsors and Partners!</h2>
       <div>
@@ -98,7 +99,7 @@
       </div>
     </div>
   </section>
-  <section id = "faq">
+  <section id = "faq" class = "fade">
     <div class="container">
       <h2 class = "text-align">Frequently Asked Questions</h2>
       <div>
@@ -134,30 +135,34 @@
   </section>
   <section id = "contact-form">
     <div class="container">
-      <h2 class = "text-align">Contact The Team</h2>
-      <div>
-        <div class="divide div-transparent"></div>
-      </div>  
-      <h4 class = "text-align">Thank you for your interest and consideration in connecting patients, healthcare workers and families. Kindly reachout with any questions or concerns via the form below or send an email to <a href="mailto:info@frontlineconnect.ca"> info@frontlineconnect.ca</a>.</h4>
-      <div class = "contact-divide">
+      <div class="fade">
+        <h2 class = "text-align">Contact The Team</h2>
         <div>
-          <img src="./assets/try.png">
-        </div>
-        <div>
-          <form class = "form">
-            <div class = "grid">
-              <input type="text" class = "contact-flex" placeholder = "* Full Name...">
-              <input type="text" class = "contact-flex" placeholder = "*  Email...">
-            </div>
-            <input type="text" placeholder = "* Your Subject...">
-            <input type="textarea" placeholder = "* The Message...">
-            <input type="submit" value = "Send Message" class = "btn">
-          </form>
+          <div class="divide div-transparent"></div>
+        </div>  
+        <h4 class = "text-align">Thank you for your interest and consideration in connecting patients, healthcare workers and families. Kindly reachout with any questions or concerns via the form below or send an email to <a href="mailto:info@frontlineconnect.ca"> info@frontlineconnect.ca</a>.</h4>
+      </div>
+      <div class="fade">
+        <div class = "contact-divide">
+          <div>
+            <img src="./assets/try.png">
+          </div>
+          <div>
+            <form class = "form">
+              <div class = "grid">
+                <input type="text" class = "contact-flex" placeholder = "* Full Name...">
+                <input type="text" class = "contact-flex" placeholder = "*  Email...">
+              </div>
+              <input type="text" placeholder = "* Your Subject...">
+              <input type="textarea" placeholder = "* The Message...">
+              <input type="submit" value = "Send Message" class = "btn">
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <footer id="main-footer">
+  <footer id="main-footer" class = "fade">
     <div class="container footer-container">
       <div>
         <a href="index.html"><img src="./assets/logo.png"></a>

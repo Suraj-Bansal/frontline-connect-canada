@@ -15,7 +15,7 @@ body {
    background-color: #f3f3f3;
    color: black;
    text-decoration: none;
-   overflow: hidden;
+   overflow-x: hidden;
 }
 
 .container {
@@ -168,7 +168,7 @@ button {
 
 button:hover {
    background-color: firebrick;
-   transition: 0.1s;
+   transition: 0.5s;
 }
 
 .donate-button {
@@ -788,4 +788,8 @@ hr {
    75%{left: -3000px}
    98%{left: -3000px}
    100%{left: 0px}
+}
+
+.fade {
+   opacity: 0;
 }
