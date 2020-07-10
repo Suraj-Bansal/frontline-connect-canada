@@ -148,6 +148,10 @@ nav {
    color: crimson;
 }
 
+.nav_links li a: {
+   color: firebrick;
+}
+
 #navbar {
    position: sticky;
    top:0;
