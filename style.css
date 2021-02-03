@@ -28,11 +28,9 @@ body {
 .spinner{
    width: 80px;
    height: 80px;
-   
    border: 2px solid #f3f3f3;
    border-top:3px solid #f25a41;
    border-radius: 100%;
-   
    position: absolute;
    top:0;
    bottom:0;
@@ -350,8 +348,9 @@ button:hover {
 .divider img {
    position: relative;
    padding-left: 20px;
-   width: 325px;
-   height: 300px;
+   width: 275px;
+   height: 250px;
+   margin-left: 30px;
 }
 
 .panel p {
@@ -800,4 +799,20 @@ hr {
 
 .footer-fade {
    opacity: 0;
+}
+
+.petition a {
+   text-decoration: underline;
+   font-weight: 600;
+   color: crimson;  
+   cursor: pointer; 
+}
+
+.petition a:hover {
+   opacity: 0.8;
+   transition-delay: 0.1s;
+}
+
+.petition-header h3 {
+   font-weight: bold
 }
